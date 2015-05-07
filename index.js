@@ -30,7 +30,7 @@ function writeLayer(layer, tileWidth) {
         image.bitblt(tilesetImage, 0, 0, 16, 16, (n % tileWidth) * 16, Math.floor(n / tileWidth) * 16);
     });
 
-    tilesetImage.pack().pipe(fs.createWriteStream('out/layer' + layer + '.png'));
+    tilesetImage.pack().pipe(fs.createWriteStream('out/layer2' + layer + '.png'));
 }
 
 writeLayer(0, 10);
