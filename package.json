@@ -1,0 +1,18 @@
+{
+  "name": "poketools",
+  "version": "1.0.0",
+  "description": "Tools for ROM hacking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Touched",
+  "license": "GPLv3",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "node-png": "^0.4.3"
+  }
+}
