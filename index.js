@@ -3,7 +3,7 @@ var tileset = require('./lib/map/tileset');
 var PNG = require('node-png').PNG;
 
 var buffer = fs.readFileSync('./BPRE0.gba');
-var data = tileset.load(buffer, 0x2D4A94 + 0x18);
+var data = tileset.load(buffer, 0x2D4A94 + 0x18 * 1);
 
 function writeLayer(data) {
     var tilesetImage = new PNG({
